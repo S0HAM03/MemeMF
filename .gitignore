@@ -1,0 +1,38 @@
+# Standard Unreal Engine 5 .gitignore
+
+# Binaries and build artifacts
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Script/
+
+# Visual Studio files
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# VS Code files
+.vscode/
+
+# Other temporary files
+*.log
+*.tmp
+*.bak
+*.user
+*.opendb
+*.db
+
+# Mac specific
+.DS_Store
+DerivedData/
+
+# Unreal Engine generated
+*.uproject.bak
+*-Debug.*
+*-Win64-Shipping.*
